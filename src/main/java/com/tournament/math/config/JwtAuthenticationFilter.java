@@ -1,4 +1,4 @@
-package com.tutorial.security.config;
+package com.tournament.math.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

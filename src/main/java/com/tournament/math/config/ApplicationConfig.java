@@ -1,6 +1,6 @@
-package com.tutorial.security.config;
+package com.tournament.math.config;
 
-import com.tutorial.security.user.UserRepository;
+import com.tournament.math.users.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

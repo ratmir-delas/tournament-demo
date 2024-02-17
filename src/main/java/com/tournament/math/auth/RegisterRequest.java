@@ -1,6 +1,6 @@
-package com.tutorial.security.auth;
+package com.tournament.math.auth;
 
-import com.tutorial.security.user.Role;
+import com.tournament.math.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

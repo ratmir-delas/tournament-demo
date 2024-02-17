@@ -1,4 +1,4 @@
-package com.tutorial.security.demo;
+package com.tournament.math.demo;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

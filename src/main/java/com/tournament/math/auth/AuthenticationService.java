@@ -1,8 +1,8 @@
-package com.tutorial.security.auth;
+package com.tournament.math.auth;
 
-import com.tutorial.security.config.JwtService;
-import com.tutorial.security.user.User;
-import com.tutorial.security.user.UserRepository;
+import com.tournament.math.config.JwtService;
+import com.tournament.math.users.User;
+import com.tournament.math.users.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

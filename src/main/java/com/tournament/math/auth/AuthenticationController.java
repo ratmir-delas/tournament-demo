@@ -1,4 +1,4 @@
-package com.tutorial.security.auth;
+package com.tournament.math.auth;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

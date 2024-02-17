@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/spring_boot_security
+    url: jdbc:postgresql://localhost:5432/tournament_demo
     username: postgres
     password: 12345678pP
     driver-class-name: org.postgresql.Driver
@@ -15,7 +15,5 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 server:
   port: 8080
-testing:
-  app:
-    expiration: 86400000
-    secret: mySuperDifficultSecret
+api:
+  version: /api/v1

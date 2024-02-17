@@ -1,11 +1,10 @@
-package com.tutorial.security.config;
+package com.tournament.math.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import org.hibernate.annotations.DialectOverride;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -39,7 +38,7 @@ public class JwtService {
                 .setSubject(userDetail.getUsername())
                 .setIssuedAt(new java.util.Date(System.currentTimeMillis()))
                 //.setExpiration(new java.util.Date(System.currentTimeMillis() + 1000 * 60 * 60 * 24))
-                .setExpiration(new java.util.Date(System.currentTimeMillis() + 1000 * 60 * 60 * 5))
+                .setExpiration(new java.util.Date(System.currentTimeMillis() + 1000 * 60 * 60 * 5)) // 5 hours
                 .signWith(getSigningKey(), SignatureAlgorithm.HS256)
                 .compact();
     }

@@ -2,6 +2,7 @@ package com.tournament.math.participants.locations.municipality;
 
 import com.tournament.math.participants.locations.district.District;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,10 +12,14 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/municipality")
-@RequiredArgsConstructor
 public class MunicipalityController {
 
     private final MunicipalityService municipalityService;
+
+    @Autowired
+    public MunicipalityController(MunicipalityService municipalityService) {
+        this.municipalityService = municipalityService;
+    }
 
     @GetMapping("/")
     public List<Municipality> getAllMunicipalities() {
