@@ -1,5 +1,6 @@
-package com.tutorial.security.user;
+package com.tournament.math.users;
 
+import com.tournament.math.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,7 +22,7 @@ import java.util.List;
 public class User implements UserDetails {
     @Id
     @GeneratedValue
-    private Integer id;
+    private Long id;
     private String name;
     private String email;
     private String password;
