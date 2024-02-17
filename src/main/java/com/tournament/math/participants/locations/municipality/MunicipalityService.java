@@ -1,4 +1,4 @@
-package com.tournament.math.participants.location.municipality;
+package com.tournament.math.participants.locations.municipality;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,9 @@
-package com.tournament.math.participants.location.district;
+package com.tournament.math.participants.locations.district;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -20,7 +22,7 @@ public class DistrictService {
         districtRepository.deleteById(id);
     }
 
-    public Iterable<District> findAll() {
+    public List<District> findAll() {
         return districtRepository.findAll();
     }
 

@@ -1,4 +1,4 @@
-package com.tournament.math.participants.location.district;
+package com.tournament.math.participants.locations.district;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
