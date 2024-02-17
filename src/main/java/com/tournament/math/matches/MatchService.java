@@ -16,4 +16,21 @@ public class MatchService {
     public Match findMatchesBySchoolId(Integer schoolId) {
         return repository.findMatchesBySchoolId(schoolId);
     }
+
+    public Match save(Match match) {
+        return repository.save(match);
+    }
+
+    public Match update(Match match) {
+        if (repository.existsById(match.getId())) {
+            return repository.save(match);
+        } else {
+            throw new RuntimeException("Match for update not found");
+        }
+    }
+
+    public void delete(Long id) {
+        repository.deleteById(id);
+    }
+
 }

@@ -26,4 +26,19 @@ public class MatchController {
         return matchService.findMatchesBySchoolId(schoolId);
     }
 
+    @RequestMapping("/save")
+    public Match save(Match match) {
+        return matchService.save(match);
+    }
+
+    @RequestMapping("/update")
+    public Match update(Match match) {
+        return matchService.update(match);
+    }
+
+    @RequestMapping("/delete/{id}")
+    public void delete(@PathVariable Long id) {
+        matchService.delete(id);
+    }
+
 }
