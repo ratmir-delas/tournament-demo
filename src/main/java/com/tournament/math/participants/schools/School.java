@@ -1,7 +1,7 @@
 package com.tournament.math.participants.schools;
 
 import com.tournament.math.participants.locations.district.District;
-import com.tournament.math.participants.locations.municipality.Municipality;
+import com.tournament.math.participants.municipalities.Municipality;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

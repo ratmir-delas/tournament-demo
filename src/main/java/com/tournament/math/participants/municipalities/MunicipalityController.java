@@ -1,7 +1,6 @@
-package com.tournament.math.participants.locations.municipality;
+package com.tournament.math.participants.municipalities;
 
 import com.tournament.math.participants.locations.district.District;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/municipality")
+@RequestMapping("/municipalities")
 public class MunicipalityController {
 
     private final MunicipalityService municipalityService;

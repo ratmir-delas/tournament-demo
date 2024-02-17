@@ -1,6 +1,6 @@
-package com.tournament.math.participants.locations.municipality;
+package com.tournament.math.participants.municipalities;
 
-import com.tournament.math.participants.locations.district.District;
+import com.tournament.math.enums.District;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,6 +18,6 @@ public class Municipality {
     @GeneratedValue
     private Long id;
     private String name;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @Enumerated
     private District district;
 }

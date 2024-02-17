@@ -1,4 +1,4 @@
-package com.tournament.math.participants.locations.municipality;
+package com.tournament.math.participants.municipalities;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
