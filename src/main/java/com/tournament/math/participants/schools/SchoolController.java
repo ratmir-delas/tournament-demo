@@ -1,5 +1,6 @@
 package com.tournament.math.participants.schools;
 
+import com.tournament.math.enums.District;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,9 +29,9 @@ public class SchoolController {
         return schoolService.findByMunicipalityId(municipalityId);
     }
 
-    @RequestMapping("/district/{districtId}")
-    public List<School> findByDistrictId(@PathVariable Long districtId) {
-        return schoolService.findByDistrictId(districtId);
+    @RequestMapping("/district/{district}")
+    public List<School> findByDistrict(@PathVariable District district) {
+        return schoolService.findByDistrict(district);
     }
 
     @RequestMapping("/save")

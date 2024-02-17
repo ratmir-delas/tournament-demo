@@ -1,5 +1,6 @@
 package com.tournament.math.participants.schools;
 
+import com.tournament.math.enums.District;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -19,8 +20,8 @@ public class SchoolService {
         return schoolRepository.findSchoolsByMunicipalityId(municipalityId);
     }
 
-    public List<School> findByDistrictId(Long districtId) {
-        return schoolRepository.findSchoolsByDistrictId(districtId);
+    public List<School> findByDistrict(District district) {
+        return schoolRepository.findSchoolsByDistrict(district);
     }
 
     public School save(School school) {

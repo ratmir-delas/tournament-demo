@@ -23,7 +23,9 @@ public enum District {
     SETUBAL("Setúbal"),
     VIANA_DO_CASTELO("Viana do Castelo"),
     VILA_REAL("Vila Real"),
-    VISEU("Viseu");
+    VISEU("Viseu"),
+    MADEIRA("Madeira"),
+    ACORES("Açores");
 
     private final String name;
 }

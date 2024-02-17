@@ -1,11 +1,8 @@
 package com.tournament.math.participants.municipalities;
 
-import com.tournament.math.participants.locations.district.District;
+import com.tournament.math.enums.District;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -20,7 +17,7 @@ public class MunicipalityController {
         this.municipalityService = municipalityService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/all")
     public List<Municipality> getAllMunicipalities() {
         return municipalityService.findAll();
     }
@@ -30,22 +27,34 @@ public class MunicipalityController {
         return municipalityService.findById(id);
     }
 
-    @GetMapping("/{districtId}")
-    public List<Municipality> getMunicipalitiesByDistrictId(@PathVariable Long districtId) {
-        return municipalityService.findByDistrictId(districtId);
+    @GetMapping("/district/{district}")
+    public List<Municipality> getMunicipalitiesByDistrict(@PathVariable District district) {
+        return municipalityService.findByDistrict(district);
     }
 
-    @GetMapping("/{municipalityId}/district")
-    public District getDistrictByMunicipalityId(@PathVariable Long municipalityId) {
-        return municipalityService.findById(municipalityId).getDistrict();
-    }
-
-    @GetMapping("/add")
+    @PostMapping("/add")
     public Municipality addMunicipality(Municipality municipality) {
         return municipalityService.save(municipality);
     }
 
-    @GetMapping("/update")
+    @GetMapping("/add/all") // This is a temporary method to add all municipalities to the database
+    public String addMunicipalities() {
+        if (municipalityService.countAll() > 0) {
+            return "Municipalities already added!";
+        } else {
+            MunicipalitiesDeclaration.getMunicipalitiesMap().forEach((district, municipalities) -> {
+                municipalities.forEach(municipality -> {
+                    Municipality newMunicipality = new Municipality();
+                    newMunicipality.setName(municipality);
+                    newMunicipality.setDistrict(district);
+                    municipalityService.save(newMunicipality);
+                });
+            });
+        }
+        return municipalityService.countAll() + " municipalities added successfully!";
+    }
+
+    @PostMapping("/update")
     public Municipality updateMunicipality(Municipality municipality) {
         return municipalityService.update(municipality);
     }

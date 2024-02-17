@@ -1,6 +1,6 @@
 package com.tournament.math.participants.schools;
 
-import com.tournament.math.participants.locations.district.District;
+import com.tournament.math.enums.District;
 import com.tournament.math.participants.municipalities.Municipality;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,7 +20,7 @@ public class School {
     private Long id;
     private String name;
     private String description;
-    @ManyToOne(fetch = FetchType.EAGER)
+    @Enumerated
     private District district;
     @ManyToOne(fetch = FetchType.EAGER)
     private Municipality municipality;
