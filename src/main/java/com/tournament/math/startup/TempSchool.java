@@ -13,7 +13,6 @@ public class TempSchool {
     private int code;
     private String name;
     private int school_network_code;
-    private String postal_code;
     private String city;
     private String municipality;
     private String district;

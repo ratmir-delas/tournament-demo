@@ -26,10 +26,6 @@ public class School {
     private String name;
     @ManyToOne
     private SchoolNetwork schoolNetwork;
-    private Integer schoolNetworkCode; // helper field
-    private boolean isHeadquarter;
-    @Column(length = 10)
-    private String postalCode;
     @Column(length = 50)
     private String city;
     @ManyToOne

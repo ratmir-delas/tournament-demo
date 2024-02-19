@@ -16,33 +16,9 @@ public class StartupController {
         this.startupService = startupService;
     }
 
-    @GetMapping("/municipalities")
-    public String fillMunicipalities() {
-        if (startupService.countMunicipalities() > 0) {
-            return "Municipalities already exist in the database";
-        } else {
-            startupService.fillMunicipalities();
-            return "Municipalities added to the database";
-        }
-    }
-
-    @GetMapping("/networks")
-    public String fillNetworks() {
-        if (startupService.countNetworks() > 0) {
-            return "School networks already exist in the database";
-        } else {
-            startupService.fillNetworks();
-            return "School networks added to the database";
-        }
-    }
-
-    @GetMapping("/schools")
-    public String fillSchools() {
-        if (startupService.countSchools() > 0) {
-            return "Schools already exist in the database";
-        } else {
-            startupService.fillSchools();
-            return "Schools added to the database";
-        }
+    @GetMapping("/all")
+    public String fillAll() {
+        startupService.fillAll();
+        return "Municipalities, school networks and schools added to the database";
     }
 }

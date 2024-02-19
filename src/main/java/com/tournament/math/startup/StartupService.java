@@ -49,13 +49,6 @@ public class StartupService {
             mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false); // Ignore unknown fields
             List<TempSchoolNetwork> tempSchoolNetworks = mapper.readValue(inputStream, new TypeReference<List<TempSchoolNetwork>>(){});
 
-            // Manipulate the TempSchoolNetwork objects
-            for (TempSchoolNetwork tempSchoolNetwork : tempSchoolNetworks) {
-                // Manipulate tempSchoolNetwork as needed
-                // For example:
-                // tempSchoolNetwork.setJsonFieldName(tempSchoolNetwork.getJsonFieldName().toUpperCase());
-            }
-
             // Create SchoolNetwork objects from the manipulated TempSchoolNetwork objects
             List<SchoolNetwork> schoolNetworks = new ArrayList<>();
             for (TempSchoolNetwork tempSchoolNetwork : tempSchoolNetworks) {
@@ -88,13 +81,6 @@ public class StartupService {
             mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false); // Ignore unknown fields
             List<TempSchool> tempSchools = mapper.readValue(inputStream, new TypeReference<List<TempSchool>>(){});
 
-            // Manipulate the TempSchool objects
-            for (TempSchool tempSchool : tempSchools) {
-                // Manipulate tempSchool as needed
-                // For example:
-                // tempSchool.setJsonFieldName(tempSchool.getJsonFieldName().toUpperCase());
-            }
-
             // Create School objects from the manipulated TempSchool objects
             List<School> schools = new ArrayList<>();
             for (TempSchool tempSchool : tempSchools) {
@@ -106,17 +92,13 @@ public class StartupService {
                 school.setMunicipality(municipalityRepository.findByName(tempSchool.getMunicipality()));
                 school.setSchoolNetwork(schoolNetworkRepository.findByCode(tempSchool.getSchool_network_code()));
                 school.setCode(tempSchool.getCode());
+                school.setCity(tempSchool.getCity());
                 schools.add(school);
             }
 
             // Save the School objects to the database
             schoolRepository.saveAll(schools);
 
-            // Set the headquarters of each school network
-            for (SchoolNetwork schoolNetwork : schoolNetworkRepository.findAll()) {
-                schoolNetwork.setHeadquarter(schoolRepository.findByCode(schoolNetwork.getHeadquarterCode()));
-                schoolNetworkRepository.save(schoolNetwork);
-            }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -124,5 +106,20 @@ public class StartupService {
 
     public int countSchools() {
         return (int) schoolRepository.count();
+    }
+
+    public void mapNetworksToSchools() {
+        List<SchoolNetwork> schoolNetworks = schoolNetworkRepository.findAll();
+        for (SchoolNetwork schoolNetwork : schoolNetworks) {
+            schoolNetwork.setHeadquarter(schoolRepository.findByCode(schoolNetwork.getHeadquarterCode()));
+            schoolNetworkRepository.save(schoolNetwork);
+        }
+    }
+
+    public void fillAll() {
+        fillMunicipalities();
+        fillNetworks();
+        fillSchools();
+        mapNetworksToSchools();
     }
 }
