@@ -8,6 +8,8 @@ import java.util.List;
 
 @Repository
 public interface SchoolRepository extends JpaRepository<School, Long> {
+    School findByCode(int code);
     List<School> findSchoolsByDistrict(District district);
     List<School> findSchoolsByMunicipalityId(Long municipalityId);
+    List<School> findSchoolsBySchoolNetworkId(Long schoolNetworkId);
 }

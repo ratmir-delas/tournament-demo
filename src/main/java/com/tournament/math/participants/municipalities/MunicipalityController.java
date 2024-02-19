@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/municipalities")
+@RequestMapping("/api/municipalities")
 public class MunicipalityController {
 
     private final MunicipalityService municipalityService;
@@ -35,23 +35,6 @@ public class MunicipalityController {
     @PostMapping("/add")
     public Municipality addMunicipality(Municipality municipality) {
         return municipalityService.save(municipality);
-    }
-
-    @GetMapping("/add/all") // This is a temporary method to add all municipalities to the database
-    public String addMunicipalities() {
-        if (municipalityService.countAll() > 0) {
-            return "Municipalities already added!";
-        } else {
-            MunicipalitiesDeclaration.getMunicipalitiesMap().forEach((district, municipalities) -> {
-                municipalities.forEach(municipality -> {
-                    Municipality newMunicipality = new Municipality();
-                    newMunicipality.setName(municipality);
-                    newMunicipality.setDistrict(district);
-                    municipalityService.save(newMunicipality);
-                });
-            });
-        }
-        return municipalityService.countAll() + " municipalities added successfully!";
     }
 
     @PostMapping("/update")

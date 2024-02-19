@@ -1,4 +1,4 @@
-package com.tournament.math.participants.municipalities;
+package com.tournament.math.startup;
 
 import com.tournament.math.enums.District;
 
@@ -114,7 +114,7 @@ public class MunicipalitiesDeclaration {
 
         // Açores
         municipalitiesByDistrict.put(District.ACORES, List.of(
-                "Angra do Heroísmo", "Corvo", "Horta", "Lagoa", "Lajes das Flores", "Lajes do Pico",
+                "Angra do Heroísmo", "Corvo", "Horta", "Lagoa (Açores)", "Lajes das Flores", "Lajes do Pico",
                 "Madalena", "Nordeste", "Ponta Delgada", "Povoação", "Praia da Vitória", "Ribeira Grande",
                 "Santa Cruz da Graciosa", "Santa Cruz das Flores", "São Roque do Pico", "Velas", "Vila do Porto",
                 "Vila Franca do Campo"));

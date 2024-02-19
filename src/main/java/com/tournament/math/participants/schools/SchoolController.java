@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/schools")
+@RequestMapping("/api/schools")
 public class SchoolController {
 
     private final SchoolService schoolService;
@@ -32,6 +32,11 @@ public class SchoolController {
     @RequestMapping("/district/{district}")
     public List<School> findByDistrict(@PathVariable District district) {
         return schoolService.findByDistrict(district);
+    }
+
+    @RequestMapping("/network/{schoolNetworkId}")
+    public List<School> findBySchoolNetworkId(@PathVariable Long schoolNetworkId) {
+        return schoolService.findBySchoolNetworkId(schoolNetworkId);
     }
 
     @RequestMapping("/save")

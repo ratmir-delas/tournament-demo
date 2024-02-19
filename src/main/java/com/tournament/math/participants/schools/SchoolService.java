@@ -24,6 +24,10 @@ public class SchoolService {
         return schoolRepository.findSchoolsByDistrict(district);
     }
 
+    public List<School> findBySchoolNetworkId(Long schoolNetworkId) {
+        return schoolRepository.findSchoolsBySchoolNetworkId(schoolNetworkId);
+    }
+
     public School save(School school) {
         return schoolRepository.save(school);
     }

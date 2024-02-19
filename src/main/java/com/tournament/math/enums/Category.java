@@ -3,18 +3,20 @@ package com.tournament.math.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+import java.util.List;
+
 @Getter
 @AllArgsConstructor
 public enum Category {
-    FIRST(1, "Primeira", "Primeiro", new int[]{1, 2, 3}),
-    SECOND(2, "Segunda", "Segundo", new int[]{2, 3, 4}),
-    THIRD(3, "Terceira", "Terceiro", new int[]{3, 4, 5}),
-    FOURTH(4, "Quarta", "Secundário", new int[]{4, 5, 6});
+    FIRST(1, "Primeira", "Primeiro", List.of(Game.GATOS_E_CAES, Game.RASTROS, Game.PRODUTO)),
+    SECOND(2, "Segunda", "Segundo", List.of(Game.RASTROS, Game.PRODUTO, Game.DOMINORIO)),
+    THIRD(3, "Terceira", "Terceiro", List.of(Game.PRODUTO, Game.DOMINORIO, Game.ATARI_GO)),
+    FOURTH(4, "Quarta", "Secundário", List.of(Game.DOMINORIO, Game.ATARI_GO, Game.NEX));
 
     private final int id;
     private final String name;
     private final String cycle;
-    private final int[] games;
+    private final List<Game> games;
 
     public static Category getById(Integer id) {
         for (Category category : values()) {

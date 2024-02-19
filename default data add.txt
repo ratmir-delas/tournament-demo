@@ -1,6 +1,8 @@
-Municipalities
-/municipalities/add/all
-
+login
+base_url/api/startup +
+/municipalities
+/networks
+/schools
 
 
 Schools data source

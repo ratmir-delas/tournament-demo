@@ -1,15 +1,13 @@
-package com.tournament.math.participants.municipalities;
+package com.tournament.math.startup.test;
 
-import com.tournament.math.enums.District;
+import com.tournament.math.startup.MunicipalitiesDeclaration;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.Assert.*;
-
-public class MunicipalityTest {
+public class MunicipalitiesTest {
     @Test
     public void testGetMunicipalitiesMap() {
         List<String> municipalitiesDeclaration = MunicipalitiesDeclaration.getMunicipalitiesMap().values().stream().flatMap(List::stream).toList();
@@ -29,7 +27,7 @@ public class MunicipalityTest {
                 "Entroncamento","Espinho","Esposende","Estarreja","Estremoz","Fafe","Faro","Felgueiras","Ferreira do Alentejo",
                 "Ferreira do Zêzere","Figueira da Foz","Figueira de Castelo Rodrigo","Figueiró dos Vinhos","Fornos de Algodres",
                 "Freixo de Espada à Cinta","Fronteira","Funchal","Fundão","Gavião","Golegã","Gondomar","Gouveia","Grândola","Guarda",
-                "Guimarães","Góis","Horta","Idanha-a-Nova","Lagoa","Lagoa","Lagos","Lajes das Flores","Lajes do Pico",
+                "Guimarães","Góis","Horta","Idanha-a-Nova","Lagoa","Lagoa (Açores)","Lagos","Lajes das Flores","Lajes do Pico",
                 "Lamego","Leiria","Lisboa","Loulé","Loures","Lourinhã","Lousada","Lousã","Macedo de Cavaleiros","Machico",
                 "Madalena","Mafra","Maia","Mangualde","Manteigas","Marco de Canaveses","Marinha Grande","Marvão","Matosinhos",
                 "Mação","Mealhada","Melgaço","Mesão Frio","Mira","Miranda do Corvo","Miranda do Douro","Mirandela","Mogadouro",
@@ -55,7 +53,7 @@ public class MunicipalityTest {
 
 
 
-        /*
+
         // See if contains all municipalities and print the missing ones
         for (String municipality : allMunicipalities) {
             if (!municipalitiesDeclaration.contains(municipality)) {
@@ -77,7 +75,7 @@ public class MunicipalityTest {
         // Compare the size of the two lists
         System.out.println("Quantity of municipalities in declaration: " + municipalitiesDeclaration.size());
         System.out.println("Quantity of municipalities: " + allMunicipalities.size());
-        */
+
 
     }
 }
