@@ -10,8 +10,8 @@ public interface MatchRepository extends JpaRepository<Match, Long> {
     public Match findMatchesByUserId(Integer userId);
 
     @Query("SELECT m FROM Match m WHERE m.school1.id = ?1 OR m.school2.id = ?1")
-    public Match findMatchesBySchoolId(Integer schoolId);
+    public Iterable<Match> findMatchesBySchoolId(Integer schoolId);
 
     @Query("SELECT m FROM Match m WHERE m.game = ?1 AND m.category = ?2")
-    public Match findMatchesByGameIdAndCategoryId(Game game, Category category);
+    public Iterable<Match> findMatchesByGameIdAndCategoryId(int matchId, int categoryId);
 }

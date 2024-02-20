@@ -7007,19 +7007,6 @@
   "phone": "284915441"
  },
  {
-  "code": "800143",
-  "name": "CERCIBEJA Coop. Educ. Reab. Crianças Inadaptadas",
-  "is_headquarter": "N",
-  "city": "BEJA",
-  "municipality": "Beja",
-  "district": "Beja",
-  "postal_code": "7800-242",
-  "region": "Alentejo",
-  "type": "Privado",
-  "email": "cercibeja@escolas.min-edu.pt; ",
-  "phone": "284311390"
- },
- {
   "code": "404627",
   "name": "Escola Secundária Diogo de Gouveia, Beja",
   "school_network_code": "135021",
@@ -13253,19 +13240,6 @@
   "phone": "253600540"
  },
  {
-  "code": "800385",
-  "name": "Colégio Luso-Internacional de Braga",
-  "is_headquarter": "N",
-  "city": "BRAGA",
-  "municipality": "Braga",
-  "district": "Braga",
-  "postal_code": "4710-069",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "cl.libraga@escolas.min-edu.pt; ",
-  "phone": "253679860"
- },
- {
   "code": "500604",
   "name": "Colégio Teresiano",
   "is_headquarter": "N",
@@ -14066,19 +14040,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.vilasboaslameiro@escolas.min-edu.pt; ",
   "phone": "278511239"
- },
- {
-  "code": "510300",
-  "name": "Jardim de Infância Flor de Liz - Santa Casa da Misericórdia de Vila Flor",
-  "is_headquarter": "N",
-  "city": "VILA FLOR",
-  "municipality": "Vila Flor",
-  "district": "Bragança",
-  "postal_code": "5360-323",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "ji.scmvflor@escolas.min-edu.pt; ",
-  "phone": "278518070"
  },
  {
   "code": "241519",
@@ -20878,19 +20839,6 @@
   "phone": "266587007"
  },
  {
-  "code": "806582",
-  "name": "Creche & Aparece",
-  "is_headquarter": "N",
-  "city": "REGUENGOS DE MONSARAZ",
-  "municipality": "Reguengos de Monsaraz",
-  "district": "Évora",
-  "postal_code": "7200-343",
-  "region": "Alentejo",
-  "type": "Privado",
-  "email": "joao.silva@fmivps.pt; ",
-  "phone": "266508600"
- },
- {
   "code": "403635",
   "name": "Escola Secundária Conde de Monsaraz, Reguengos de Monsaraz",
   "school_network_code": "135604",
@@ -21828,19 +21776,6 @@
   "phone": "266977016"
  },
  {
-  "code": "800072",
-  "name": "Associação Sócio-Cultural Terapêutica de Évora - Lar Escola S. Francisco de Assis",
-  "is_headquarter": "N",
-  "city": "AZARUJA",
-  "municipality": "Évora",
-  "district": "Évora",
-  "postal_code": "7005-132",
-  "region": "Alentejo",
-  "type": "Privado",
-  "email": "lescsfranciscoassis@escolas.min-edu.pt; ",
-  "phone": "266977272"
- },
- {
   "code": "286357",
   "name": "Escola Básica do Rossio de São Brás, Évora",
   "school_network_code": "135549",
@@ -22376,19 +22311,6 @@
   "phone": "282767854"
  },
  {
-  "code": "802473",
-  "name": "Escola Internacional Vale Verde",
-  "is_headquarter": "N",
-  "city": "LUZ LGS",
-  "municipality": "Lagos",
-  "district": "Faro",
-  "postal_code": "8600-120",
-  "region": "Algarve",
-  "type": "Privado",
-  "email": "esc.ivaleverde@escolas.min-edu.pt; ",
-  "phone": "282697205"
- },
- {
   "code": "288056",
   "name": "Escola Básica de Ameijeira, Lagos",
   "school_network_code": "145427",
@@ -22402,19 +22324,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1ji.ameijeira@escolas.min-edu.pt; ",
   "phone": "282767375"
- },
- {
-  "code": "501130",
-  "name": "Barlavento International Primary School",
-  "is_headquarter": "N",
-  "city": "LUZ LGS",
-  "municipality": "Lagos",
-  "district": "Faro",
-  "postal_code": "8600-110",
-  "region": "Algarve",
-  "type": "Privado",
-  "email": "admin@barlavento-international.org; esc.ibarlavento@escolas.min-edu.pt; ",
-  "phone": "282094542"
  },
  {
   "code": "207664",
@@ -23850,19 +23759,6 @@
   "phone": "282444810"
  },
  {
-  "code": "521152",
-  "name": "Jardim de Infância Amigos dos Pequeninos",
-  "is_headquarter": "N",
-  "city": "SILVES",
-  "municipality": "Silves",
-  "district": "Faro",
-  "postal_code": "8300-116",
-  "region": "Algarve",
-  "type": "Privado",
-  "email": "direcao@amigosdospequeninos.com; ",
-  "phone": "282440120"
- },
- {
   "code": "263825",
   "name": "Escola Básica de Pêra, Silves",
   "school_network_code": "145269",
@@ -23921,19 +23817,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.alcantarilha@escolas.min-edu.pt; ",
   "phone": "282322023"
- },
- {
-  "code": "800535",
-  "name": "DSA - Escola Alemã do Algarve",
-  "is_headquarter": "N",
-  "city": "SILVES",
-  "municipality": "Silves",
-  "district": "Faro",
-  "postal_code": "8300-054",
-  "region": "Algarve",
-  "type": "Privado",
-  "email": "dsasilves@escolas.min-edu.pt; mail@ds-algarve.org; ",
-  "phone": "282419104"
  },
  {
   "code": "271457",
@@ -24099,19 +23982,6 @@
   "phone": "281971783"
  },
  {
-  "code": "806887",
-  "name": "Colégio Santiago Internacional",
-  "is_headquarter": "S",
-  "city": "TAVIRA",
-  "municipality": "Tavira",
-  "district": "Faro",
-  "postal_code": "8800-391",
-  "region": "Algarve",
-  "type": "Privado",
-  "email": "info@colegiointernacionaltavira.pt; ",
-  "phone": "281 328 677"
- },
- {
   "code": "277794",
   "name": "Escola Básica n.º 1 de Tavira",
   "school_network_code": "145324",
@@ -24272,18 +24142,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.budens@escolas.min-edu.pt; ",
   "phone": "282695958"
- },
- {
-  "code": "802480",
-  "name": "Escola Waldorf - A Oliveira",
-  "is_headquarter": "N",
-  "city": "BUDENS",
-  "municipality": "Vila do Bispo",
-  "district": "Faro",
-  "postal_code": "8650-171",
-  "region": "Algarve",
-  "type": "Privado",
-  "phone": "282695898"
  },
  {
   "code": "806767",
@@ -28863,19 +28721,6 @@
   "phone": "244569429"
  },
  {
-  "code": "806920",
-  "name": "Leiria International School",
-  "is_headquarter": "S",
-  "city": "MARINHA GRANDE",
-  "municipality": "Marinha Grande",
-  "district": "Leiria",
-  "postal_code": "2430-290",
-  "region": "Centro",
-  "type": "Privado",
-  "email": "office@leiriainternationalschool.com; ",
-  "phone": "964 387 228"
- },
- {
   "code": "286709",
   "name": "Escola Básica João Beare, Marinha Grande",
   "school_network_code": "161676",
@@ -31835,19 +31680,6 @@
   "phone": "213825602"
  },
  {
-  "code": "806747",
-  "name": "United Lisbon International School - ULIS",
-  "is_headquarter": "S",
-  "city": "LISBOA",
-  "municipality": "Lisboa",
-  "district": "Lisboa",
-  "postal_code": "1800-255",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "info@unitedlisbon.school; ",
-  "phone": "218370973"
- },
- {
   "code": "804157",
   "name": "Lua Crescente",
   "is_headquarter": "N",
@@ -32937,19 +32769,6 @@
   "phone": "218530002"
  },
  {
-  "code": "503642",
-  "name": "Lycée Français Charles Lepièrre",
-  "is_headquarter": "N",
-  "city": "LISBOA",
-  "municipality": "Lisboa",
-  "district": "Lisboa",
-  "postal_code": "1070-112",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "lfcharleslepierre@escolas.min-edu.pt; ",
-  "phone": "213824400"
- },
- {
   "code": "253959",
   "name": "Escola Básica do Bairro do Restelo, Lisboa",
   "school_network_code": "171153",
@@ -33871,32 +33690,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "rui.dias@adventistas.org.pt; ",
   "phone": "964 800 282"
- },
- {
-  "code": "806548",
-  "name": "The British School of Lisbon",
-  "is_headquarter": "N",
-  "city": "LISBOA",
-  "municipality": "Lisboa",
-  "district": "Lisboa",
-  "postal_code": "1200-275",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "info@britishschool.pt; ",
-  "phone": "211511942"
- },
- {
-  "code": "503680",
-  "name": "Escola Alemã de Lisboa",
-  "is_headquarter": "N",
-  "city": "LISBOA",
-  "municipality": "Lisboa",
-  "district": "Lisboa",
-  "postal_code": "1600-891",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "esc.alemalisboa@escolas.min-edu.pt; ",
-  "phone": "217510260"
  },
  {
   "code": "404354",
@@ -37196,18 +36989,6 @@
   "phone": "214241610"
  },
  {
-  "code": "804184",
-  "name": "Oeiras International School",
-  "is_headquarter": "N",
-  "city": "BARCARENA",
-  "municipality": "Oeiras",
-  "district": "Lisboa",
-  "postal_code": "2730-013",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "phone": "211935330"
- },
- {
   "code": "806363",
   "name": "Escola Profissional de Referência Empresarial TRIVALOR",
   "is_headquarter": "N",
@@ -37630,19 +37411,6 @@
   "phone": "214235310"
  },
  {
-  "code": "800442",
-  "name": "International Sharing School TagusparK",
-  "is_headquarter": "N",
-  "city": "PORTO SALVO",
-  "municipality": "Oeiras",
-  "district": "Lisboa",
-  "postal_code": "2740-119",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "cienciaactiva@escolas.min-edu.pt; ",
-  "phone": "214876140"
- },
- {
   "code": "800426",
   "name": "Colégio São Francisco de Assis",
   "is_headquarter": "N",
@@ -37772,19 +37540,6 @@
   "cicle": "1º Ciclo;2º Ciclo;3º Ciclo",
   "email": "eb23.sjuliaobarra@escolas.min-edu.pt; ",
   "phone": "214423674"
- },
- {
-  "code": "503691",
-  "name": "Instituto Español Giner de Los Rios",
-  "is_headquarter": "N",
-  "city": "CRUZ QUEBRADA-DAFUNDO",
-  "municipality": "Oeiras",
-  "district": "Lisboa",
-  "postal_code": "1495-717",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "it.espanhollisboa@escolas.min-edu.pt; ",
-  "phone": "214114114"
  },
  {
   "code": "239343",
@@ -38243,19 +37998,6 @@
   "phone": "214309410"
  },
  {
-  "code": "800131",
-  "name": "Carlucci American International School of Lisbon",
-  "is_headquarter": "N",
-  "city": "SINTRA",
-  "municipality": "Sintra",
-  "district": "Lisboa",
-  "postal_code": "2710-301",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "fcaischooloflisbon@escolas.min-edu.pt; ",
-  "phone": "219239800"
- },
- {
   "code": "247108",
   "name": "Escola Básica n.º 2 de Mem Martins, Sintra",
   "school_network_code": "171530",
@@ -38461,39 +38203,13 @@
   "phone": "219171266"
  },
  {
-  "code": "806889",
-  "name": "Prunus International School",
-  "is_headquarter": "S",
-  "city": "SINTRA",
-  "municipality": "Sintra",
-  "district": "Lisboa",
-  "postal_code": "2710-251",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "info@prunus.pt; ",
-  "phone": "938222875"
- },
- {
-  "code": "806694",
-  "name": "TASIS-The American School In Portugal",
-  "is_headquarter": "S",
-  "city": "SINTRA",
-  "municipality": "Sintra",
-  "district": "Lisboa",
-  "postal_code": "2710-697",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "hr@tasisportugal.org; ",
-  "phone": "219241004"
- },
- {
   "code": "800451",
   "name": "Colégio da Beloura",
   "is_headquarter": "N",
   "city": "SINTRA",
   "municipality": "Sintra",
   "district": "Lisboa",
-  "postal_code": "2710-694",
+  "postal_code": "2501130710-694",
   "region": "Lisboa e Vale do Tejo",
   "type": "Privado",
   "cicle": "1º Ciclo",
@@ -39548,19 +39264,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.n1.vverde@escolas.min-edu.pt; ",
   "phone": "219615644"
- },
- {
-  "code": "800372",
-  "name": "Infanta D. Maria de Portugal - Prime School of Portugal",
-  "is_headquarter": "N",
-  "city": "SINTRA",
-  "municipality": "Sintra",
-  "district": "Lisboa",
-  "postal_code": "2710-422",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "cl.dmariadeportugal@escolas.min-edu.pt; ",
-  "phone": "219235496"
  },
  {
   "code": "244740",
@@ -41831,18 +41534,6 @@
   "cicle": "2º Ciclo;3º Ciclo;Secundário;Profissional",
   "email": "direcao@agan.edu.gov.pt; servicos@agan.edu.gov.pt; ",
   "phone": "214906036"
- },
- {
-  "code": "804618",
-  "name": "Creche da Falagueira",
-  "is_headquarter": "N",
-  "city": "AMADORA",
-  "municipality": "Amadora",
-  "district": "Lisboa",
-  "postal_code": "2700-069",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "phone": "214945328"
  },
  {
   "code": "340492",
@@ -44771,19 +44462,6 @@
   "phone": "214690494"
  },
  {
-  "code": "505006",
-  "name": "Saint Dominic´s International School",
-  "is_headquarter": "N",
-  "city": "SÃO DOMINGOS DE RANA",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2785-816",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "saintdominic@escolas.min-edu.pt; ",
-  "phone": "214440434"
- },
- {
   "code": "803303",
   "name": "Ideia - Outeiro de Polima",
   "is_headquarter": "N",
@@ -44810,19 +44488,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.n2.sassoeiros@escolas.min-edu.pt; ",
   "phone": "214578799"
- },
- {
-  "code": "803258",
-  "name": "Externato Sueco",
-  "is_headquarter": "N",
-  "city": "CARCAVELOS",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2775-620",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "ext.sueco@escolas.min-edu.pt; ",
-  "phone": "214570646"
  },
  {
   "code": "503400",
@@ -44972,19 +44637,6 @@
   "phone": "214571309"
  },
  {
-  "code": "806778",
-  "name": "International Anglo American School",
-  "is_headquarter": "S",
-  "city": "ESTORIL",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2765-043",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "info@primeschool.pt; ",
-  "phone": "219 235 496"
- },
- {
   "code": "221028",
   "name": "Escola Básica Fausto Cardoso de Figueiredo, Estoril, Cascais",
   "school_network_code": "170677",
@@ -45132,19 +44784,6 @@
   "phone": "214442508"
  },
  {
-  "code": "806514",
-  "name": "Kairos Montessori",
-  "is_headquarter": "N",
-  "city": "CASCAIS",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2750-004",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "info@kairosmontessori.com; ",
-  "phone": "967 431 046"
- },
- {
   "code": "250569",
   "name": "Escola Básica de Areia - Guincho, Cascais",
   "school_network_code": "170732",
@@ -45158,18 +44797,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.n3.birre@escolas.min-edu.pt; ",
   "phone": "214869083"
- },
- {
-  "code": "804207",
-  "name": "Santo António International School",
-  "is_headquarter": "N",
-  "city": "ESTORIL",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2765-277",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "phone": "210731054"
  },
  {
   "code": "504877",
@@ -45359,19 +44986,6 @@
   "phone": "214523125"
  },
  {
-  "code": "804253",
-  "name": "St. James Primary School",
-  "is_headquarter": "N",
-  "city": "CASCAIS",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2750-561",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "stjamesprimaryschool@escolas.min-edu.pt; ",
-  "phone": "214864755"
- },
- {
   "code": "804188",
   "name": "Os Aprendizes - Laboratório do Conhecimento",
   "is_headquarter": "N",
@@ -45384,19 +44998,6 @@
   "cicle": "Pré-escolar;1º Ciclo;2º Ciclo;3º Ciclo",
   "email": "osaprendizes@escolas.min-edu.pt; ",
   "phone": "214835803"
- },
- {
-  "code": "806738",
-  "name": "Saint Georges School",
-  "is_headquarter": "S",
-  "city": "CASCAIS",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2750-561",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "office@stgeorgesschool.pt; ",
-  "phone": "21 486 47 55"
  },
  {
   "code": "294482",
@@ -45440,19 +45041,6 @@
   "cicle": "Pré-escolar;1º Ciclo;2º Ciclo;3º Ciclo",
   "email": "ext.donaluisasigea@escolas.min-edu.pt; ",
   "phone": "214647480"
- },
- {
-  "code": "503368",
-  "name": "IPS - International Preparatory School",
-  "is_headquarter": "N",
-  "city": "ALCABIDECHE",
-  "municipality": "Cascais",
-  "district": "Lisboa",
-  "postal_code": "2645-344",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "accounts@ipsschool.org; eppprimariainglesa@escolas.min-edu.pt; ",
-  "phone": "214570149"
  },
  {
   "code": "504270",
@@ -45902,19 +45490,6 @@
   "phone": "242983657"
  },
  {
-  "code": "800178",
-  "name": "CRIPS-Centro de Recuperação Infantil de Ponte de Sor",
-  "is_headquarter": "N",
-  "city": "PONTE DE SOR",
-  "municipality": "Ponte de Sor",
-  "district": "Portalegre",
-  "postal_code": "7400-223",
-  "region": "Alentejo",
-  "type": "Privado",
-  "email": "crips@escolas.min-edu.pt; ",
-  "phone": "242209460"
- },
- {
   "code": "279043",
   "name": "Escola Básica de Tramaga, Ponte de Sor",
   "school_network_code": "135653",
@@ -46285,19 +45860,6 @@
   "cicle": "2º Ciclo;3º Ciclo;Artistico",
   "email": "eb23.cristovaofalcao@escolas.min-edu.pt; ",
   "phone": "245309830"
- },
- {
-  "code": "277150",
-  "name": "Jardim de Infância de Santo Amaro, Sousel",
-  "school_network_code": "135331",
-  "is_headquarter": "N",
-  "city": "SANTO AMARO SSL",
-  "municipality": "Sousel",
-  "district": "Portalegre",
-  "postal_code": "7470-155",
-  "region": "Alentejo",
-  "type": "Publico",
-  "phone": "268552267"
  },
  {
   "code": "330553",
@@ -50244,19 +49806,6 @@
   "phone": "225095043"
  },
  {
-  "code": "800173",
-  "name": "CLIP - Colégio Luso-Internacional do Porto",
-  "is_headquarter": "N",
-  "city": "PORTO",
-  "municipality": "Porto",
-  "district": "Porto",
-  "postal_code": "4100-506",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "clip@escolas.min-edu.pt; ",
-  "phone": "226199160"
- },
- {
   "code": "242767",
   "name": "Escola Básica da Bandeirinha, Porto",
   "school_network_code": "152950",
@@ -50835,18 +50384,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "ext.jardimflori@escolas.min-edu.pt; ",
   "phone": "226181024"
- },
- {
-  "code": "506126",
-  "name": "Jardim Infantil o Mundo Mágico",
-  "is_headquarter": "N",
-  "city": "PORTO",
-  "municipality": "Porto",
-  "district": "Porto",
-  "postal_code": "4350-008",
-  "region": "Norte",
-  "type": "Privado",
-  "phone": "225379014"
  },
  {
   "code": "523963",
@@ -51723,19 +51260,6 @@
   "phone": "222073250"
  },
  {
-  "code": "521383",
-  "name": "Oporto British School - Instituto Cultural Britânico do Porto",
-  "is_headquarter": "N",
-  "city": "PORTO",
-  "municipality": "Porto",
-  "district": "Porto",
-  "postal_code": "4150-201",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "ext.obritishschool@escolas.min-edu.pt; ",
-  "phone": "226166660"
- },
- {
   "code": "253546",
   "name": "Escola Básica do Monte Aventino, Porto",
   "school_network_code": "152237",
@@ -51764,19 +51288,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.n15.porto@escolas.min-edu.pt; ",
   "phone": "225020208"
- },
- {
-  "code": "506485",
-  "name": "Lycée Français International de Porto",
-  "is_headquarter": "N",
-  "city": "PORTO",
-  "municipality": "Porto",
-  "district": "Porto",
-  "postal_code": "4150-348",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "adjoint.daf@lfip.pt; esc.francesaporto@escolas.min-edu.pt; ",
-  "phone": "226153030"
  },
  {
   "code": "800198",
@@ -51865,19 +51376,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1.n51.porto@escolas.min-edu.pt; ",
   "phone": "222050911"
- },
- {
-  "code": "506473",
-  "name": "Colégio Alemão do Porto",
-  "is_headquarter": "N",
-  "city": "PORTO",
-  "municipality": "Porto",
-  "district": "Porto",
-  "postal_code": "4150-386",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "cl.alemaoporto@escolas.min-edu.pt; ",
-  "phone": "226076570"
  },
  {
   "code": "254721",
@@ -55862,17 +55360,6 @@
   "cicle": "Pré-escolar;1º Ciclo",
   "email": "eb1ji.n1.arcozelo@escolas.min-edu.pt; ",
   "phone": "227623057"
- },
- {
-  "code": "806233",
-  "name": "Jardim de Infância \"Génios em Marcha\"",
-  "is_headquarter": "N",
-  "city": "VILA NOVA DE GAIA",
-  "municipality": "Vila Nova de Gaia",
-  "district": "Porto",
-  "postal_code": "4405-000",
-  "region": "Norte",
-  "type": "Privado"
  },
  {
   "code": "225230",
@@ -65637,19 +65124,6 @@
   "phone": "212688160"
  },
  {
-  "code": "519546",
-  "name": "CERCIZIMBRA - Cooperativa de Educação e Reabilitação de Cidadãos Inadaptados de Sesimbra",
-  "is_headquarter": "N",
-  "city": "SESIMBRA",
-  "municipality": "Sesimbra",
-  "district": "Setúbal",
-  "postal_code": "2970-577",
-  "region": "Lisboa e Vale do Tejo",
-  "type": "Privado",
-  "email": "cercizimbra@escolas.min-edu.pt; ",
-  "phone": "212684243"
- },
- {
   "code": "243840",
   "name": "Escola Básica n.º 12 de Setúbal",
   "school_network_code": "171359",
@@ -70132,19 +69606,6 @@
   "cicle": "1º Ciclo;2º Ciclo;3º Ciclo;Secundário;Artistico",
   "email": "esc.b12cvpraiaancora@escolas.min-edu.pt; ",
   "phone": "258959020"
- },
- {
-  "code": "507866",
-  "name": "Jardim de Infância do Convento de Santo António",
-  "is_headquarter": "N",
-  "city": "CAMINHA",
-  "municipality": "Caminha",
-  "district": "Viana do Castelo",
-  "postal_code": "4910-129",
-  "region": "Norte",
-  "type": "Privado",
-  "email": "ji.larstantonio@escolas.min-edu.pt; ",
-  "phone": "258719600"
  },
  {
   "code": "345714",

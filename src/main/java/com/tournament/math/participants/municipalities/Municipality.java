@@ -1,5 +1,6 @@
 package com.tournament.math.participants.municipalities;
 
+import com.fasterxml.jackson.annotation.JsonValue;
 import com.tournament.math.enums.District;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

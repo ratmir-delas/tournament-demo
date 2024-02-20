@@ -16,9 +16,15 @@ public class StartupController {
         this.startupService = startupService;
     }
 
-    @GetMapping("/all")
+    @GetMapping("/data")
     public String fillAll() {
         startupService.fillAll();
         return "Municipalities, school networks and schools added to the database";
+    }
+
+    @GetMapping("/generate")
+    public String fillPlayers() {
+        startupService.generateMatches();
+        return "Matches added to the database";
     }
 }

@@ -20,7 +20,7 @@ public class MunicipalityService {
         return municipalityRepository.findById(id).orElse(null);
     }
 
-    public List<Municipality> findByDistrict(District district) {
+    public Iterable<Municipality> findByDistrict(District district) {
         return municipalityRepository.findByDistrict(district);
     }
 

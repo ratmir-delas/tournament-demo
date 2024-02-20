@@ -1,5 +1,6 @@
 package com.tournament.math.participants.schools;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.tournament.math.enums.District;
 import com.tournament.math.enums.Region;
 import com.tournament.math.participants.municipalities.Municipality;
@@ -26,6 +27,8 @@ public class School {
     private Long id;
     private Integer code;
     private String name;
+    private String cycles;
+    @JsonIgnore
     @ManyToOne
     private SchoolNetwork schoolNetwork;
     @Column(length = 50)
@@ -36,4 +39,12 @@ public class School {
     private District district;
     @Enumerated
     private Region region;
+
+    public List<String> getCycles() {
+        if (cycles == null) {
+            return null;
+        } else {
+            return List.of(cycles.split(","));
+        }
+    }
 }

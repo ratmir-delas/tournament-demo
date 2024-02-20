@@ -28,7 +28,7 @@ public class MunicipalityController {
     }
 
     @GetMapping("/district/{district}")
-    public List<Municipality> getMunicipalitiesByDistrict(@PathVariable District district) {
+    public Iterable<Municipality> getMunicipalitiesByDistrict(@PathVariable District district) {
         return municipalityService.findByDistrict(district);
     }
 

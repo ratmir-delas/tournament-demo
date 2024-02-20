@@ -13,7 +13,7 @@ public class MatchService {
         return repository.findMatchesByUserId(userId);
     }
 
-    public Match findMatchesBySchoolId(Integer schoolId) {
+    public Iterable<Match> findMatchesBySchoolId(Integer schoolId) {
         return repository.findMatchesBySchoolId(schoolId);
     }
 

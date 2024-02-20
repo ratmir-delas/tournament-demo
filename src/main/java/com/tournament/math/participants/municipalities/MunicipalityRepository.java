@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface MunicipalityRepository extends JpaRepository<Municipality, Long> {
     Municipality findByName(String name);
-    List<Municipality> findByDistrict(District district);
+    Iterable<Municipality> findByDistrict(District district);
 }

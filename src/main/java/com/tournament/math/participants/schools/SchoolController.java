@@ -25,17 +25,17 @@ public class SchoolController {
     }
 
     @RequestMapping("/municipality/{municipalityId}")
-    public List<School> findByMunicipalityId(@PathVariable Long municipalityId) {
+    public Iterable<School> findByMunicipalityId(@PathVariable Long municipalityId) {
         return schoolService.findByMunicipalityId(municipalityId);
     }
 
     @RequestMapping("/district/{district}")
-    public List<School> findByDistrict(@PathVariable District district) {
+    public Iterable<School> findByDistrict(@PathVariable District district) {
         return schoolService.findByDistrict(district);
     }
 
     @RequestMapping("/network/{schoolNetworkId}")
-    public List<School> findBySchoolNetworkId(@PathVariable Long schoolNetworkId) {
+    public Iterable<School> findBySchoolNetworkId(@PathVariable Long schoolNetworkId) {
         return schoolService.findBySchoolNetworkId(schoolNetworkId);
     }
 

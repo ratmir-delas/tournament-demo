@@ -27,4 +27,8 @@ public enum Category {
         throw new IllegalArgumentException("No category found with id: " + id);
     }
 
+    public static List<Category> getAll() {
+        return List.of(FIRST, SECOND, THIRD, FOURTH);
+    }
+
 }

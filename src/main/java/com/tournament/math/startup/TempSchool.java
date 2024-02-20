@@ -17,4 +17,5 @@ public class TempSchool {
     private String municipality;
     private String district;
     private String region;
+    private String cicle;
 }

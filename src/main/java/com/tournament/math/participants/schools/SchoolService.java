@@ -16,15 +16,15 @@ public class SchoolService {
         return schoolRepository.findById(id).orElseThrow();
     }
 
-    public List<School> findByMunicipalityId(Long municipalityId) {
+    public Iterable<School> findByMunicipalityId(Long municipalityId) {
         return schoolRepository.findSchoolsByMunicipalityId(municipalityId);
     }
 
-    public List<School> findByDistrict(District district) {
+    public Iterable<School> findByDistrict(District district) {
         return schoolRepository.findSchoolsByDistrict(district);
     }
 
-    public List<School> findBySchoolNetworkId(Long schoolNetworkId) {
+    public Iterable<School> findBySchoolNetworkId(Long schoolNetworkId) {
         return schoolRepository.findSchoolsBySchoolNetworkId(schoolNetworkId);
     }
 

@@ -22,7 +22,7 @@ public class MatchController {
     }
 
     @RequestMapping("/school/{schoolId}")
-    public Match findMatchesBySchoolId(@PathVariable Integer schoolId) {
+    public Iterable<Match> findMatchesBySchoolId(@PathVariable Integer schoolId) {
         return matchService.findMatchesBySchoolId(schoolId);
     }
 
